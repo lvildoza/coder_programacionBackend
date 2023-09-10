@@ -1,0 +1,134 @@
+[
+	{
+		"id": 14,
+		"title": "Teclado",
+		"description": "Inalambrico pilas AAA",
+		"code": "23999",
+		"price": 4500,
+		"stock": 200,
+		"category": "Electronica",
+		"thumbnail": ""
+	},
+	{
+		"id": 13,
+		"title": "Mate",
+		"description": "Mate Stanley",
+		"code": "912388",
+		"price": 20000,
+		"stock": 53,
+		"category": "Mates",
+		"thumbnail": ""
+	},
+	{
+		"id": 12,
+		"title": "Cajon",
+		"description": "Material de Madera",
+		"code": "56232",
+		"price": 1000,
+		"stock": 1221,
+		"category": "Muebles",
+		"thumbnail": ""
+	},
+	{
+		"id": 11,
+		"title": "Libreria",
+		"description": "De material de Madera",
+		"code": "1231444",
+		"price": 1233,
+		"stock": 200,
+		"category": "Muebles",
+		"thumbnail": ""
+	},
+	{
+		"id": 10,
+		"title": "Nafta",
+		"description": "Super",
+		"code": "24555",
+		"price": 2445,
+		"stock": 2000,
+		"category": "Combustible",
+		"thumbnail": ""
+	},
+	{
+		"id": 9,
+		"title": "Escritorio",
+		"description": "De Metal",
+		"code": "1234",
+		"price": 200,
+		"stock": 3000,
+		"category": "Muebles",
+		"thumbnail": ""
+	},
+	{
+		"title": "Escritorio Nordico",
+		"description": "Melamina",
+		"price": 16500,
+		"thumbnail": "/img/imagen.jpg",
+		"code": 105,
+		"stock": 150,
+		"id": "50kaEx0DPHum6F3wyi0_-"
+	},
+	{
+		"title": "Calculadora",
+		"description": "Calculadora Cientifica",
+		"price": 598,
+		"thumbnail": "/img/imagen.jpg",
+		"code": 15,
+		"stock": 250,
+		"id": "1im3PZWw3GE6Y5-R4oCnb"
+	},
+	{
+		"title": "Ventana",
+		"description": "Aluminio",
+		"price": 18000,
+		"thumbnail": "/img/imagen.jpg",
+		"code": 155,
+		"stock": 90,
+		"id": "1CAQ2hAWW33CsvyAUMgZ6"
+	},
+	{
+		"title": "Monitor",
+		"description": "20 pulgadas",
+		"price": 35000,
+		"thumbnail": "/img/imagen.jpg",
+		"code": 265,
+		"stock": 13,
+		"id": "1eOAfgBZZ6MAc_tPIRHPL"
+	},
+	{
+		"title": "Mouse",
+		"description": "USB",
+		"price": 500,
+		"thumbnail": "/img/imagen.jpg",
+		"code": 356,
+		"stock": 40,
+		"id": "9fAMz-m_jYb_RnuKPutep"
+	},
+	{
+		"title": "Teclado",
+		"description": "Inalambrico",
+		"price": 1680,
+		"thumbnail": "/img/imagen.jpg",
+		"code": 689,
+		"stock": 18,
+		"id": "VreWzy7Gsh8Xj0Lyk_LfZ"
+	},
+	{
+		"title": "Celular",
+		"description": "Samsung",
+		"price": 16899,
+		"thumbnail": "/img/imagen.jpg",
+		"code": 357,
+		"stock": 15,
+		"id": "E42BsYoA758KqpapFaMFS"
+	},
+	{
+		"title": "Lampara",
+		"description": "De escritorio",
+		"price": 590,
+		"thumbnail": "/img/imagen.jpg",
+		"code": 159,
+		"stock": 35,
+		"id": "CWMEq5--ziXRmEniBdww_"
+	}
+]
