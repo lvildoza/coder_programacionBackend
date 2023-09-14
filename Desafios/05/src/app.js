@@ -1,9 +1,9 @@
 import express from 'express';
 import handlebars from 'express-handlebars';
 import __dirname from './utils.js';
+// import { Server } from "socket.io";
+// import ProductManager from './ProductManager.js';
 
-
-//import { Server } from "socket.io";
 //import cors from 'cors';
 //import mongoose from "mongoose";
 
@@ -17,8 +17,7 @@ import mongoose from 'mongoose';
 import viewsRouter from './routes/views.router.js';
 import usersViewRouter from './routes/users.views.router.js';
 import sessionsRouter from './routes/sessions.router.js';
-
-//import router from "./routes/index.js";
+//import router from './routes/index.js';
 
 const app = express();
 
@@ -33,10 +32,12 @@ app.engine('handlebars', handlebars.engine());
 app.set('views', __dirname + '/views')
 app.set('view engine', 'handlebars');
 app.use(express.static(__dirname + '/public'));
+//app.use('/api/products', products);
+//app.use('/api/carts', cart);
 
+
+// app.use('/', router);
 /*
-app.use('/', router);
-
 io.on('connection', socket => {
     console.log('Nuevo cliente conectado');
     socket.on('disconnect', () => {
@@ -47,6 +48,7 @@ io.on('connection', socket => {
 export function getIO() {
     return io;
 }
+
 */
 
 // Conectamos nuestra session con el file storage.
