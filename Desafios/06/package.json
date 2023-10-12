@@ -1,12 +1,16 @@
 {
-  "name": "Entregable N° 5",
+  "name": "Entregable - Clase 21",
   "version": "1.0.0",
-  "description": "",
+  "description": "Refactor a nuestro login",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lvildoza/coder_programacionBackend/tree/a18cb7a67b46c32db323cd5308c86fe16128b288/Desafios/06"
   },
   "keywords": [],
   "author": "Leandro Vildoza",
