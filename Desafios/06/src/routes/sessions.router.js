@@ -22,7 +22,7 @@ router.post("/register", async (req, res) => {
         password: createHash(password)
     }
     const result = await userModel.create(user);
-    res.status(201).send({ status: "success", message: "Usuario creado con exito con ID: " + result.id });
+    return res.status(201).send({ status: "success", message: "Usuario creado con exito con ID: " + result.id });
 });
 
 router.post("/login", async (req, res) => {
