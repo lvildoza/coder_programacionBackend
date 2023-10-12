@@ -1,6 +1,9 @@
 import express from 'express';
 import handlebars from 'express-handlebars';
 import __dirname from './utils.js';
+// Passport imports
+import passport from 'passport';
+import initializePassport from './config/passport.config.js';
 // import { Server } from "socket.io";
 // import ProductManager from './ProductManager.js';
 
@@ -69,6 +72,12 @@ app.use(session({
     resave: false, //guarda en memoria
     saveUninitialized: true, //lo guarda a penas se crea
 }));
+
+// TODO: Middlewares Passport
+initializePassport();
+app.use(passport.initialize());
+app.use(passport.session());
+
 
 
 /*=======================================
