@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title": "Pastas Caseras",
+    "description": "Ravioles por docena",
+    "price": 2400,
+    "status": true,
+    "thumbnail": "http://ravioles.com.ar",
+    "code": "XD3045CD",
+    "stock": 500,
+    "available": true
+  }
+]
