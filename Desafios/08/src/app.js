@@ -178,4 +178,3 @@ const producto = async () => {
     await productManager.getProductById(1)
 }
 console.log(producto()); */
-

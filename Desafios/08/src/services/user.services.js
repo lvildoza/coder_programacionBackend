@@ -76,6 +76,3 @@ export default class UserService {
         let result = await userModel.updateOne(filter, value);
         return result;
     }; */
-
-
-
