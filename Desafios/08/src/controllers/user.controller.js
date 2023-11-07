@@ -33,6 +33,7 @@ export const loginController = async (req, res) => {
 export const gitHubCallbackController = async (req, res) => {
     const user = req.user;
     await services.gitHubLogin(user, res);
+    console.log (user);
 }
 
 //controler logout
